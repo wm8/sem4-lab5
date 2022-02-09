@@ -32,14 +32,14 @@ Stack<T>::Stack()
 {
   size = 1;
   used = 0;
-  array = new T[size];
+  array = static_cast<T*>(malloc(size * sizeof(T)));
 }
 template <typename T>
 Stack<T>::Stack(T* item)
 {
   size = 2;
   used = 1;
-  array = new T[size];
+  array = static_cast<T*>(malloc(size * sizeof(T)));
   array[0] = item;
 }
 template <typename T>
