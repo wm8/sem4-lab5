@@ -1,5 +1,6 @@
-#include <example.hpp>
+// Copyright 2022 wm8
 
+#include <iostream>
 int main() {
-  example();
+  std::cout << "Hello, World\n";
 }

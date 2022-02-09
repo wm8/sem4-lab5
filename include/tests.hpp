@@ -3,6 +3,6 @@
 #ifndef INCLUDE_EXAMPLE_HPP_
 #define INCLUDE_EXAMPLE_HPP_
 
-auto example() -> void;
+#include "Stack.h"
 
 #endif // INCLUDE_EXAMPLE_HPP_
