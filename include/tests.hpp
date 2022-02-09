@@ -5,4 +5,4 @@
 
 #include "Stack.h"
 
-#endif // INCLUDE_TEST_HPP_
+#endif // INCLUDE_TESTS_HPP_
